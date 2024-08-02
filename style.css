@@ -1,23 +1,31 @@
 :root{
---cor-fundo:#01080e;
---cor-principal:0#092635;
---cor-secudaria:#1B4242;
---cor-destaque:#9EC8B9;
---cor-texto:#D7F9FF;
+--cor-fundo:#0088ff;
+--cor-principal:0#020a50;
+--cor-secudaria:#251388;
+--cor-destaque:#58e0f1;
+--cor-texto:#11dbff;}
 
-body {
-background-color: var (--cor-fundo);
-color: var (--cor-texto) ;
+
+body{
+background-color: var(--cor-fundo);
+color: var(--cor-texto);
 display: flex;
-justify-content: center; align-items: center; min-height: 100vh;
-* Caixa-principalf
-background-color: var (--cor-principal);
-width: 90%；
-max-width: 600px; text-align: center;
+justify-content: center; 
+align-items: center; 
+min-height: 100vh;
+}
+
+ .Caixa-principal{
+background-color: var(--cor-principal);
+width: 90%;
+max-width: 600px; 
+text-align: center;
 padding: 20px;
-h1t
-color: var (--cor-destaque) ;
-button i
+ }
+h1{
+color: var (--cor-destaque) ;}
+
+button {
 
 background-color: var (--cor-secudaria);
 
@@ -25,17 +33,12 @@ color: var (--cor-texto) ;
 
 border: nome;
 
-border- radius: 15px;
+border-radius: 15px;
 
 padding: 15px;
 
-transition: background-color 0.35;
-3
-9
-1
-2
-3
-｝
-button: hovert
+transition: background-color 0.35;}
+
+button:hover{
 background-color: var (--cor-destaque) ;
-color: var (--cor-principala);
+color: var (--cor-principala);}
