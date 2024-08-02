@@ -7,11 +7,11 @@ const textoResultado = document.querySelector(".Texto-resultado");
 
 const perguntas = [
 {
-    enunciado: "nosso texto",
+    enunciado: "Fatos que precisamos saber sobre o meio ambiente o desmatamento é uma das principais causas de perda de biodiversidade",
     caixaAlternativas: [
     {
-    texto: "Não é um esporte.",
-    afirmacao: "afirmacao"
+    texto: "falso",
+    afirmacao: "verdadeiro"
     },
     {
     texto: "Sim é um espote.",
